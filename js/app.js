@@ -44,6 +44,7 @@ function promoCode(){
     else{
         document.getElementById("grand-total").innerText = finalMainPrice;
     }
+    document.getElementById("promo-input").value = "";
 }
 
 document.getElementById("promo-button").addEventListener("click",function(){
